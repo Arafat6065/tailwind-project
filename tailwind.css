@@ -1,0 +1,35 @@
+@media only screen and (max-width:665px) {
+    .benifit {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .benifit:nth-child(1) {
+        order: 2;
+    }
+
+    .benifit :nth-child(2) {
+        order: -1;
+    }
+
+}
+
+@media only screen and (min-width:666px) and (max-width:900px) {
+    .benifit {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .benifit:nth-child(1) {
+        order: 2;
+    }
+
+    .benifit :nth-child(2) {
+        order: -1;
+    }
+
+}
